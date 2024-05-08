@@ -1,0 +1,251 @@
+<!Doctype = html >
+<html>
+<head>
+<META name="viewport" contect="width=device-width,
+initial-scale=">
+<style>
+body {
+margin:0;
+}
+ul{list-style-type:none;
+margin:0;
+padding:0;
+width:15%;
+background-color:#ffff00;
+position:fixed;
+height:100%;
+overflow:auto;
+}
+li a{
+display:block;
+color:#000;
+padding:16px 16px;
+text-decoration:none;
+font-size : 20;
+}
+li a.active{
+background-color :#4caf50;
+color:white;
+}
+li a:hover:not(.active){
+background-color:#98fb98;
+color:white;
+}
+h2{
+color : #ffa500;}
+*{box-sizing:border-box}
+body {font-family: verdana.sans-serif;}
+.myslides {display:none}
+
+/*slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position:relative;
+margin:auto;
+}
+
+/*caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position:absolute;
+bottom: 8px;
+width:100%;
+text-align:center;
+}
+
+/*Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/*The dots/bullets/indicators */
+.dot {
+height:13px;
+width: 13px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius:50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+
+@-webkit-Keyframes fade {
+from {opacity: 4}
+to {opacity:1}
+}
+
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+
+/* on smaller screens, decrease text size */
+@media only screen and (max-width: 300px} {
+.text {font-size: 11px}
+}
+</style>
+</head>
+<body>	
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="#kontak">Kontak</a></li>
+<li><a href="#download">Download</a></li>
+<li><a href="#tutorial">Tutorial</a></li>
+</ul>
+<div style="margin-left:15%">
+<h1>Dr. (H.C.) Ir. H. Soekarno</h1>
+	<p>Change image every 2 seconds:</p>
+	
+
+	<div class="slideshow-container">
+	
+
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 3</div>
+	  <a href = "#soekarno">
+	  <img src="soekarno1.jpg" style="width:100%"></a>
+	  <div class="text">soekarno</div>
+	</div>
+	
+
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 3</div>
+	  <a href = "#soekarno">
+	  <img src="soekarno2.jpg" style="width:100%"></a>
+	  <div class="text">soekarno</div>
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 3</div>
+	  <a href = "#soekarno">
+	  <img src="soekarno3.jpg" style="width:100%"></a>
+	  <div class="text">soekarno</div>
+	</div>
+
+	</div>
+	<br>
+	
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span></br> 
+	</div>
+	
+	<script>
+	var slideIndex = 0;
+	showSlides();
+	
+
+	function showSlides() {
+	    var i;
+	    var slides = document.getElementsByClassName("mySlides");
+	    var dots = document.getElementsByClassName("dot");
+	    for (i = 0; i < slides.length; i++) {
+	       slides[i].style.display = "none";  
+	    }
+	    slideIndex++;
+	    if (slideIndex> slides.length) {slideIndex = 1}    
+	    for (i = 0; i < dots.length; i++) {
+	        dots[i].className = dots[i].className.replace(" active", "");
+	    }
+	    slides[slideIndex-1].style.display = "block";  
+	    dots[slideIndex-1].className += " active";
+	    setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+	</script></div>
+	
+<div style="margin-left:15%">
+<H2>Dr. (H.C.) Ir. H. Soekarno</H2>
+<H3 id = "soekarno">PRESIDEN SOEKARNO</H3>
+<p><br>Dr. (H.C.) Ir. H. Soekarno[cat.] (Ejaan Republik: Sukarno, Jawa: ꦯꦸꦑꦂꦟ; pengucapan bahasa Jawa: [suːˈkarnɔ])[2] (6 Juni 1901 – 21 Juni 1970)[cat. 1][cat. 2] adalah Presiden pertama Republik Indonesia yang menjabat pada kurun waktu 1945–1967.[7]:11, 81 Ia adalah seorang tokoh perjuangan yang berperan penting dalam memerdekakan bangsa Indonesia dari kolonialisme Belanda.[8]:26-32 Bersama Mohammad Hatta, ia memproklamasikan Kemerdekaan Indonesia pada tanggal 17 Agustus 1945. Soekarno orang pertama yang mencetuskan konsep mengenai Pancasila sebagai dasar negara Indonesia dan ia sendiri yang menamainya.[8]
+
+Soekarno menandatangani Surat Perintah 11 Maret 1966 (Supersemar) yang kontroversial, isinya —berdasarkan versi yang dikeluarkan Markas Besar Angkatan Darat— menugaskan Letnan Jenderal Soeharto untuk mengamankan dan menjaga keamanan negara dan institusi kepresidenan.[8] Supersemar menjadi dasar Letnan Jenderal Soeharto untuk membubarkan Partai Komunis Indonesia (PKI) dan mengganti anggota-anggotanya yang duduk di parlemen.[8] Setelah pertanggungjawabannya ditolak Majelis Permusyawaratan Rakyat Sementara (MPRS) pada sidang umum ke empat tahun 1967, Soekarno diberhentikan dari jabatannya sebagai presiden pada Sidang Istimewa MPRS pada tahun yang sama dan Soeharto menggantikannya sebagai pejabat Presiden Republik Indonesia.[8]
+
+Nama
+Soekarno lahir di Peneleh, Surabaya, Jawa Timur dengan nama Kusno (Koesno) yang diberikan oleh orangtuanya.[7] Akan tetapi, karena ia sering sakit maka ketika berumur sebelas tahun namanya diubah menjadi Soekarno oleh ayahnya.[7][9]:35-36 Nama tersebut diambil dari seorang panglima perang dalam kisah Bharata Yudha yaitu Karna.[7][9] Nama "Karna" menjadi "Karno" karena dalam bahasa Jawa huruf "a" berubah menjadi "o" sedangkan awalan "su" memiliki arti "baik".[9]
+
+Di kemudian hari ketika menjadi presiden, ejaan nama Soekarno diganti olehnya sendiri menjadi Sukarno karena menurutnya nama tersebut menggunakan ejaan penjajah (Belanda).[9]:32 Ia tetap menggunakan nama Soekarno dalam tanda tangannya karena tanda tangan tersebut adalah tanda tangan yang tercantum dalam Teks Proklamasi Kemerdekaan Indonesia yang tidak boleh diubah, selain itu tidak mudah untuk mengubah tanda tangan setelah berumur 50 tahun.[9]:32 Sebutan akrab untuk Soekarno adalah Bung Karno.
+
+Achmed Soekarno
+Di beberapa negara Barat, nama Soekarno kadang-kadang ditulis Achmed Soekarno. Hal ini terjadi karena ketika Soekarno pertama kali berkunjung ke Amerika Serikat, sejumlah wartawan bertanya-tanya, "Siapa nama kecil Soekarno?"[10] karena mereka tidak mengerti kebiasaan sebagian penamaan di Indonesia, terutama nama Jawa, yang hanya menggunakan satu nama saja atau tidak memiliki nama keluarga.
+
+Soekarno menyebutkan bahwa nama Achmed didapatnya ketika menunaikan ibadah haji.[11] Dalam beberapa versi lain, disebutkan pemberian nama Achmed di depan nama Soekarno, dilakukan oleh para diplomat muslim asal Indonesia yang sedang melakukan misi luar negeri dalam upaya untuk mendapatkan pengakuan kedaulatan negara Indonesia oleh negara-negara Arab.
+
+Dalam buku Bung Karno: Penyambung Lidah Rakyat Indonesia[12] dijelaskan bahwa namanya hanya "Sukarno" saja, karena dalam masyarakat Indonesia bukan hal yang tidak biasa memiliki nama yang terdiri satu kata.</p></br>
+<H3 id = "soekarno">Kehidupan Masa Kecil Dan Remaja</H3>
+
+
+<P>Rumah masa kecil Bung Karno
+Soekarno dilahirkan dengan seorang ayah yang bernama Raden Soekemi Sosrodihardjo (1873–1945) dan ibunya yaitu Ida Ayu Nyoman Rai (1881–1958).[7] Keduanya bertemu ketika Raden Soekemi yang merupakan seorang guru ditempatkan di Sekolah Dasar Pribumi di Singaraja, Bali.[7] Nyoman Rai merupakan keturunan bangsawan dari Bali dan beragama Hindu, sedangkan Raden Soekemi sendiri beragama Islam.[7] Mereka telah memiliki seorang putri yang bernama Sukarmini sebelum Soekarno lahir.[13]:4-6, 247-251 Ketika kecil Soekarno tinggal bersama kakeknya, Raden Hardjokromo di Tulung Agung, Jawa Timur.[7]
+
+Ia bersekolah pertama kali di Tulung Agung hingga akhirnya ia pindah ke Mojokerto, mengikuti orangtuanya yang ditugaskan di kota tersebut.[7] Di Mojokerto, ayahnya memasukkan Soekarno ke Eerste Inlandse School, sekolah tempat ia bekerja.[13] Kemudian pada Juni 1911 Soekarno dipindahkan ke Europeesche Lagere School (ELS) untuk memudahkannya diterima di Hogere Burger School (HBS).[7] Pada tahun 1915, Soekarno telah menyelesaikan pendidikannya di ELS dan berhasil melanjutkan ke HBS di Surabaya, Jawa Timur.[7] Ia dapat diterima di HBS atas bantuan seorang kawan bapaknya yang bernama H.O.S. Tjokroaminoto.[7] Tjokroaminoto bahkan memberi tempat tinggal bagi Soekarno di pondokan kediamannya.[7] Di Surabaya, Soekarno banyak bertemu dengan para pemimpin Sarekat Islam, organisasi yang dipimpin Tjokroaminoto saat itu, seperti Alimin, Musso, Darsono, Haji Agus Salim, dan Abdul Muis.[7] Soekarno kemudian aktif dalam kegiatan organisasi pemuda Tri Koro Dharmo yang dibentuk sebagai organisasi dari Budi Utomo.[7] Nama organisasi tersebut kemudian ia ganti menjadi Jong Java (Pemuda Jawa) pada 1918.[7] Selain itu, Soekarno juga aktif menulis di harian "Oetoesan Hindia" yang dipimpin oleh Tjokroaminoto.[13]
+
+
+Soekarno sewaktu menjadi siswa HBS Soerabaja
+
+Soekarno bersama mahasiswa pribumi TH Bandung tahun 1923. Baris belakang dari kiri ke kanan: M. Anwari, Soetedjo, Soetojo, Soekarno, R. Soemani, Soetono, R. M. Koesoemaningrat, Djokoasmo, Marsito. Duduk di depan: Soetoto, M. Hoedioro, Katamso.
+Tamat HBS Soerabaja bulan Juli 1921,[14] bersama Djoko Asmo rekan satu angkatan di HBS, Soekarno melanjutkan ke Technische Hoogeschool te Bandoeng (sekarang ITB) di Bandung dengan mengambil jurusan teknik sipil pada tahun 1921,[3]:38 setelah dua bulan dia meninggalkan kuliah, tetapi pada tahun 1922 mendaftar kembali[3]:38 dan tamat pada tahun 1926.[15] Soekarno dinyatakan lulus ujian insinyur pada tanggal 25 Mei 1926 dan pada Dies Natalis ke-6 TH Bandung tanggal 3 Juli 1926 dia diwisuda bersama delapan belas insinyur lainnya.[3]:37 Prof. Jacob Clay selaku ketua fakultas pada saat itu menyatakan "Terutama penting peristiwa itu bagi kita karena ada di antaranya 3 orang insinyur orang Jawa".[3]:37 Mereka adalah Soekarno, Anwari, dan Soetedjo,[16]:167 selain itu ada seorang lagi dari Minahasa yaitu Johannes Alexander Henricus Ondang.[16]:167
+
+Saat di Bandung, Soekarno tinggal di kediaman Haji Sanusi yang merupakan anggota Sarekat Islam dan sahabat karib Tjokroaminoto.[7] Di sana ia berinteraksi dengan Ki Hajar Dewantara, Tjipto Mangunkusumo, dan Dr. Douwes Dekker, yang saat itu merupakan pemimpin organisasi National Indische Partij.</p>
+</div>
+<div style="margin-left:15%">
+<h3>Perjuangan awal kemerdekaan</H3>
+<h4 id ="soekarno"></h4>
+<P>Soekarno pertama kali mengenal ide-ide nasionalis saat hidup di bawah pemerintahan Oemar Said Tjokroaminoto. Kemudian, ketika menjadi mahasiswa di Bandung, ia membenamkan dirinya dalam filsafat politik Eropa, Amerika, nasionalis, komunis, dan agama, yang pada akhirnya mengembangkan karyanya memiliki ideologi politik swasembada ala sosialis Indonesia. Ia mulai menata ide-idenya sebagai Marhaenisme, yang diambil dari nama Marhaen, seorang petani Indonesia yang ia temui di wilayah selatan Bandung, yang memiliki sebidang tanah kecil dan menggarapnya sendiri, sehingga menghasilkan pendapatan yang cukup untuk menghidupi keluarganya. Di universitas, Soekarno mulai mengorganisir klub belajar untuk mahasiswa Indonesia, Algemeene Studieclub, yang bertentangan dengan klub mahasiswa yang didominasi oleh mahasiswa Belanda.</P>
+<H3>Keterlibatan dalam Partai Nasional Indonesia</H3>
+<P>Pada tanggal 4 Juli 1927, Soekarno bersama teman-temannya dari Algemeene Studieclub mendirikan partai pro-kemerdekaan, Partai Nasional Indonesia (PNI), dan Sukarno terpilih sebagai pemimpin pertama. Partai ini menganjurkan kemerdekaan bagi Indonesia, dan menentang imperialisme dan kapitalisme karena berpendapat bahwa kedua sistem tersebut memperburuk kehidupan rakyat Indonesia. Partai ini juga menganjurkan sekularisme dan persatuan di antara berbagai etnis di Hindia Belanda, untuk membentuk Indonesia yang bersatu. Soekarno juga berharap bahwa Jepang akan memulai perang melawan kekuatan barat dan Jawa kemudian dapat memperoleh kemerdekaannya dengan bantuan Jepang. PNI mulai menarik sejumlah besar pengikut, khususnya di kalangan pemuda lulusan universitas yang menginginkan kebebasan dan kesempatan yang lebih luas yang tidak diberikan kepada mereka dalam sistem politik kolonialisme Belanda yang rasis dan konstriktif. Hal ini terjadi segera setelah disintegrasi Sarekat Islam pada awal tahun 1920-an dan hancurnya Partai Komunis Indonesia setelah pemberontakan yang gagal pada tahun 1926.</P>
+<H2>PENANGKAPAN,PERSIDANGAN DAN PEMENJARAAN</H2>
+<h4 id ="soekarno"></h4>
+<h3>Penangkapan dan persidangan</h3>
+<p>Kegiatan PNI menarik perhatian pemerintah kolonial, dan pidato serta pertemuan Soekarno sering kali disusupi dan diganggu oleh agen polisi rahasia kolonial (Politieke Inlichtingendienst). Akhirnya, Soekarno dan para pemimpin penting PNI lainnya ditangkap pada tanggal 29 Desember 1929 oleh otoritas kolonial Belanda dalam serangkaian penggerebekan di seluruh Jawa. Sukarno sendiri ditangkap saat sedang berkunjung ke Yogyakarta. Selama persidangannya di gedung pengadilan Landraad Bandung dari bulan Agustus hingga Desember 1930, Soekarno menyampaikan serangkaian pidato politik panjang yang menyerang kolonialisme dan imperialisme, bertajuk Indonesia Menggoegat (Indonesia Accuses).</p>
+<H3>Hukuman dan penjara</H3>
+<p>Pada bulan Desember 1930, Sukarno dijatuhi hukuman empat tahun penjara, yang dijalani di penjara Sukamiskin di Bandung. Namun pidatonya mendapat liputan luas dari media, dan karena tekanan kuat dari unsur-unsur liberal di Belanda dan Hindia Belanda, Soekarno dibebaskan lebih awal pada tanggal 31 Desember 1931. Dengan ini Saat itu, ia telah menjadi pahlawan populer yang dikenal luas di seluruh Indonesia.
+
+Namun, selama ia dipenjara, PNI terpecah belah akibat penindasan pemerintah kolonial dan pertikaian internal. PNI yang asli dibubarkan oleh Belanda, dan mantan anggotanya membentuk dua partai berbeda; Partai Indonesia (Partindo) di bawah rekan Soekarno, Sartono yang mempromosikan agitasi massa, dan Pendidikan Nasionalis Indonesia (PNI Baru) di bawah Mohammad Hatta dan Soetan Sjahrir, dua orang nasionalis yang baru saja kembali dari studi di Belanda, dan mempromosikan strategi jangka panjang dalam menyediakan pendidikan modern kepada masyarakat Indonesia yang tidak berpendidikan untuk mengembangkan elit intelektual yang mampu memberikan perlawanan efektif terhadap pemerintahan Belanda. Setelah berusaha mendamaikan kedua partai untuk membentuk satu front persatuan nasionalis, Soekarno memilih menjadi ketua Partindo pada tanggal 28 Juli 1932. Partindo tetap mempertahankan keselarasan dengan strategi agitasi massa langsung yang dilakukan Soekarno, dan Soekarno tidak setuju dengan Perjuangan jangka panjang berbasis kader Hatta. Hatta sendiri meyakini kemerdekaan Indonesia tidak akan terjadi semasa hidupnya, sedangkan Soekarno meyakini strategi Hatta mengabaikan fakta bahwa politik hanya dapat melakukan perubahan nyata melalui pembentukan dan pemanfaatan kekuatan (machtsvorming en machtsaanwending).[17]
+
+Selama periode ini, untuk menghidupi dirinya dan partai secara finansial, Soekarno kembali ke dunia arsitektur, membuka biro Soekarno & Roosseno bersama junior universitasnya, Roosseno. Dia juga menulis artikel untuk surat kabar partai, Fikiran Ra'jat (Pikiran Rakyat). Saat bermarkas di Bandung, Soekarno sering bepergian ke seluruh Jawa untuk menjalin kontak dengan kaum nasionalis lainnya. Aktivitasnya semakin menarik perhatian PID Belanda. Pada pertengahan tahun 1933, Sukarno menerbitkan serangkaian tulisan berjudul Mentjapai Indonesia Merdeka (“Mencapai Indonesia Merdeka”). Karena tulisan ini, ia ditangkap oleh polisi Belanda saat mengunjungi rekan nasionalisnya, Mohammad Hoesni Thamrin di Jakarta pada tanggal 1 Agustus 1933.</p>
+<H3>Diasingkan</H3>
+<p>Kali ini, untuk mencegah pemberian platform kepada Sukarno untuk menyampaikan pidato politik, gubernur jenderal garis keras Jonkheer, Bonifacius Cornelis de Jonge menggunakan kekuatan daruratnya untuk mengirim Sukarno ke pengasingan internal tanpa pengadilan. Pada tahun 1934, Soekarno dikapalkan bersama keluarganya (termasuk Inggit Garnasih), ke kota terpencil Ende, di pulau Flores. Selama berada di Flores, ia memanfaatkan kebebasan bergeraknya yang terbatas untuk mendirikan teater anak-anak. Di antara anggotanya adalah politisi masa depan Frans Seda. Karena wabah malaria di Flores, pemerintah Belanda memutuskan untuk memindahkan Soekarno dan keluarganya ke Bencoolen (sekarang Bengkulu) di pantai barat Sumatra, pada bulan Februari 1938.
+
+Di Bengkulu, Soekarno berkenalan dengan Hassan Din, ketua organisasi Muhammadiyah setempat, dan dia diizinkan untuk mengajar agama di sekolah lokal milik Muhammadiyah. Salah satu muridnya adalah Fatmawati yang berusia 15 tahun, putri Hassan Din. Ia menjalin hubungan asmara dengan Fatmawati, yang ia beralasan dengan menyatakan ketidakmampuan Inggit Garnasih menghasilkan anak selama hampir 20 tahun pernikahan mereka. Soekarno masih berada di pengasingan Bengkulu ketika Jepang menyerbu kepulauan pada tahun 1942.</p>
+<div style="margin-left:15%">
+<h3 id="download">Tutorial</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-1WH4ab8HFI?si=j3555h9aHbqiERQn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FULev6SpR5U?si=nGJ8Ozy7msAZ7-tS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<a href="<https://pixaby.com/id/photos/search/presiden-soekarno/">Presiden Soekarno</a><br>
+<a href="https://pixaby.com/id/photos/search/kehidupan-soekarno/">Kehidupan Soekarno</a><br>
+<a href="https://pixaby.com/id/photos/search/persidangan-soekarno/">Persidangan Soekarno</a><br><br>
+<div class="footer-bottom">
+<div id="kontak" class="social-media">
+<a href="https://www.facebook.com/smkluqmanalhakim.kudus/"><img src="facebook.png" alt="Facebook"></a>
+<a href="https://www.youtube.com/@smkluqmanalhakimkudus7189"><img src="youtube.png" alt="Youtube"></a>
+<a href="https://www.instagram.com/smkluqmanalhakim.kudus/"><img src="instagram.png" alt="Instagram"></a>
+</div>
+
+<p> Hak Cipta &copy; 2023 Aneka Bunga. Hak Cipta Dilindungi.</p>
+</div>
+</body>
+
+</html>
